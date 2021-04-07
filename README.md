@@ -1,5 +1,5 @@
 # otakudesuh
 Beta.
 
-#usage
+# usage
 python api.py
