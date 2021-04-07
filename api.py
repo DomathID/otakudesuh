@@ -13,7 +13,7 @@ fb.me/bangdomath.id
 '''
 print(logo)
 
-nama = raw_input("Anime: ")
+nama = input("Anime: ")
 response = requests.get("https://anime.kaedenoki.net/api/anime/" + nama)
 data = response.json()
 print(f'Title: {data["japanase"]}')
